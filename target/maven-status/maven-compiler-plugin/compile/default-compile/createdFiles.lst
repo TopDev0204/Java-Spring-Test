@@ -1,0 +1,10 @@
+net/testproject/springboot/controller/UserController.class
+net/testproject/springboot/config/AppConfig.class
+net/testproject/springboot/repository/UserRepository.class
+net/testproject/springboot/model/User.class
+net/testproject/springboot/SpringbootBackendApplication.class
+net/testproject/springboot/exception/ResourceNotFoundException.class
+net/testproject/springboot/service/ScheduledJob.class
+net/testproject/springboot/repository/TaskRepository.class
+net/testproject/springboot/model/Task.class
+net/testproject/springboot/controller/TaskController.class

@@ -1,0 +1,10 @@
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/repository/UserRepository.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/service/ScheduledJob.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/controller/UserController.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/exception/ResourceNotFoundException.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/config/AppConfig.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/model/Task.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/controller/TaskController.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/SpringbootBackendApplication.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/repository/TaskRepository.java
+/home/erand/Documents/spring-backend/src/main/java/net/testproject/springboot/model/User.java
