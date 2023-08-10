@@ -50,9 +50,17 @@ public class TaskController {
 	public ResponseEntity<Task> getTaskById(@PathVariable Long user_id, @PathVariable Long task_id) {
 		logger.info("Get Task Info");
 
-		Task task = taskRepository.findById(task_id)
-				.orElseThrow(() -> new ResourceNotFoundException("Task not exist with id :" + task_id));
+		User user = userRepository.findById(user_id)
+			.orElseThrow(() -> new ResourceNotFoundException("User not exist with id :" + user_id));
+
+		Task task = user.getTasks()
+			.stream()
+            .filter(t -> Long.valueOf(t.getId()).equals(task_id))
+			.findFirst()
+			.orElseThrow(() -> new ResourceNotFoundException("Task not found for user with id: " + task_id));
+
 		return ResponseEntity.ok(task);
+
 	}
 
 	@PostMapping("/users/{user_id}/tasks")
@@ -63,6 +71,7 @@ public class TaskController {
 			.orElseThrow(() -> new ResourceNotFoundException("User not exist with id :" + user_id));
 		List<Task> tasks = user.getTasks();
 		tasks.add(task);
+		user.setTasks(tasks);
 		return taskRepository.save(task);	
 	}
 	
@@ -70,12 +79,18 @@ public class TaskController {
 	public ResponseEntity<Task> updateTask(@PathVariable Long user_id, @PathVariable Long task_id, @RequestBody Task taskDetails){
 		logger.info("Update Task");
 
-		Task task = taskRepository.findById(task_id)
-				.orElseThrow(() -> new ResourceNotFoundException("Task not exist with id :" + task_id));
-		
+		User user = userRepository.findById(user_id)
+		.orElseThrow(() -> new ResourceNotFoundException("User not exist with id :" + user_id));
+
+		Task task = user.getTasks()
+			.stream()
+			.filter(t -> Long.valueOf(t.getId()).equals(task_id))
+			.findFirst()
+			.orElseThrow(() -> new ResourceNotFoundException("Task not found for user with id: " + task_id));
+
 		task.setName(taskDetails.getName());
-		
 		Task updatedTask = taskRepository.save(task);
+		
 		return ResponseEntity.ok(updatedTask);
 	}
 	

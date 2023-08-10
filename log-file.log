@@ -3705,3 +3705,163 @@ insert into users (id, first_name, last_name, username) values (null, ?, ?, ?) [
 2023-08-10 08:49:45.127  INFO 127362 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2023-08-10 08:49:45.141  INFO 127362 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-08-10 08:49:45.164  INFO 127362 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-10 14:02:02.657  INFO 4526 --- [restartedMain] n.t.s.SpringbootBackendApplication       : Starting SpringbootBackendApplication using Java 18.0.2.1 on erand-virtual-machine with PID 4526 (/home/erand/Documents/spring-backend/target/classes started by erand in /home/erand/Documents/spring-backend)
+2023-08-10 14:02:02.674  INFO 4526 --- [restartedMain] n.t.s.SpringbootBackendApplication       : No active profile set, falling back to default profiles: default
+2023-08-10 14:02:02.980  INFO 4526 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 14:02:02.980  INFO 4526 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 14:02:05.313  INFO 4526 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 14:02:05.491  INFO 4526 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 2 JPA repository interfaces.
+2023-08-10 14:02:07.997  INFO 4526 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 14:02:08.070  INFO 4526 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-10 14:02:08.071  INFO 4526 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-08-10 14:02:08.218  INFO 4526 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-10 14:02:08.220  INFO 4526 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5239 ms
+2023-08-10 14:02:08.326  INFO 4526 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-10 14:02:08.658  INFO 4526 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-10 14:02:08.699  INFO 4526 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:27284953-56c3-4617-9807-22e7c454657e'
+2023-08-10 14:02:09.142  INFO 4526 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 14:02:09.363  INFO 4526 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-08-10 14:02:09.831  INFO 4526 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 14:02:10.616  INFO 4526 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-10 14:02:11.649  INFO 4526 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 14:02:11.655  INFO 4526 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:02:12.203  WARN 4526 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 14:02:12.570  INFO 4526 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-10 14:02:12.677  INFO 4526 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 14:02:12.689  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:02:12.691  INFO 4526 --- [restartedMain] n.t.s.SpringbootBackendApplication       : Started SpringbootBackendApplication in 11.441 seconds (JVM running for 13.445)
+2023-08-10 14:02:21.040  INFO 4526 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 14:02:21.041  INFO 4526 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-10 14:02:21.042  INFO 4526 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-10 14:02:21.155  INFO 4526 --- [http-nio-8080-exec-1] n.t.s.controller.TaskController          : Create user
+2023-08-10 14:02:31.112  INFO 4526 --- [http-nio-8080-exec-2] n.t.s.controller.TaskController          : Create user
+2023-08-10 14:02:42.902  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:02:55.587  INFO 4526 --- [http-nio-8080-exec-4] n.t.s.controller.TaskController          : Create Task
+2023-08-10 14:02:59.361  INFO 4526 --- [http-nio-8080-exec-6] n.t.s.controller.TaskController          : Create Task
+2023-08-10 14:03:12.908  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:03:17.212  INFO 4526 --- [http-nio-8080-exec-8] n.t.s.controller.TaskController          : List all users
+2023-08-10 14:03:42.933  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:03:43.235  INFO 4526 --- [http-nio-8080-exec-9] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:04:06.033  INFO 4526 --- [http-nio-8080-exec-1] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:04:06.040  WARN 4526 --- [http-nio-8080-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: Task not found for user with id: 2]
+2023-08-10 14:04:12.940  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:04:42.942  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:04:48.091  INFO 4526 --- [http-nio-8080-exec-2] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:04:48.092  WARN 4526 --- [http-nio-8080-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: User not exist with id :3]
+2023-08-10 14:05:10.839  INFO 4526 --- [http-nio-8080-exec-4] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:05:10.842  WARN 4526 --- [http-nio-8080-exec-4] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: Task not found for user with id: 1]
+2023-08-10 14:05:12.944  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:05:42.947  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:06:12.952  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:06:42.957  INFO 4526 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:07:06.951  INFO 4526 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:07:06.952  INFO 4526 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-08-10 14:07:07.163  WARN 4526 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-08-10 14:07:07.164  INFO 4526 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-10 14:07:07.167  INFO 4526 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-10 14:07:14.759  INFO 4800 --- [restartedMain] n.t.s.SpringbootBackendApplication       : Starting SpringbootBackendApplication using Java 18.0.2.1 on erand-virtual-machine with PID 4800 (/home/erand/Documents/spring-backend/target/classes started by erand in /home/erand/Documents/spring-backend)
+2023-08-10 14:07:14.764  INFO 4800 --- [restartedMain] n.t.s.SpringbootBackendApplication       : No active profile set, falling back to default profiles: default
+2023-08-10 14:07:14.859  INFO 4800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 14:07:14.860  INFO 4800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 14:07:15.533  INFO 4800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 14:07:15.614  INFO 4800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2023-08-10 14:07:16.130  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 14:07:16.139  INFO 4800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-10 14:07:16.140  INFO 4800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-08-10 14:07:16.187  INFO 4800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-10 14:07:16.187  INFO 4800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+2023-08-10 14:07:16.224  INFO 4800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-10 14:07:16.333  INFO 4800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-10 14:07:16.337  INFO 4800 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ab32e1bd-c1e7-476b-a6ba-32217608e5c2'
+2023-08-10 14:07:16.493  INFO 4800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 14:07:16.535  INFO 4800 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-08-10 14:07:16.636  INFO 4800 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 14:07:16.846  INFO 4800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-10 14:07:17.488  INFO 4800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 14:07:17.493  INFO 4800 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:07:17.957  WARN 4800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 14:07:18.437  INFO 4800 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-10 14:07:18.493  INFO 4800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 14:07:18.512  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:07:18.519  INFO 4800 --- [restartedMain] n.t.s.SpringbootBackendApplication       : Started SpringbootBackendApplication in 4.232 seconds (JVM running for 4.582)
+2023-08-10 14:07:42.482  INFO 4800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-10 14:07:42.482  INFO 4800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-10 14:07:42.483  INFO 4800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-10 14:07:42.539  INFO 4800 --- [http-nio-8080-exec-1] n.t.s.controller.TaskController          : Create user
+2023-08-10 14:07:48.705  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:07:53.484  INFO 4800 --- [http-nio-8080-exec-2] n.t.s.controller.TaskController          : Create user
+2023-08-10 14:08:06.880  INFO 4800 --- [http-nio-8080-exec-3] n.t.s.controller.TaskController          : Create Task
+2023-08-10 14:08:10.450  INFO 4800 --- [http-nio-8080-exec-4] n.t.s.controller.TaskController          : Create Task
+2023-08-10 14:08:18.707  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:08:25.819  INFO 4800 --- [http-nio-8080-exec-6] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:08:25.827  WARN 4800 --- [http-nio-8080-exec-6] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: Task not found for user with id: 1]
+2023-08-10 14:08:48.725  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:09:14.476  INFO 4800 --- [http-nio-8080-exec-7] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:09:14.479  WARN 4800 --- [http-nio-8080-exec-7] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: Task not found for user with id: 1]
+2023-08-10 14:09:18.729  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:09:32.789  INFO 4800 --- [http-nio-8080-exec-9] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:09:32.791  WARN 4800 --- [http-nio-8080-exec-9] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: User not exist with id :3]
+2023-08-10 14:09:48.737  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:09:58.829  INFO 4800 --- [http-nio-8080-exec-1] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:10:13.829  INFO 4800 --- [http-nio-8080-exec-2] n.t.s.controller.TaskController          : Get Task Info
+2023-08-10 14:10:13.831  WARN 4800 --- [http-nio-8080-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [net.testproject.springboot.exception.ResourceNotFoundException: Task not found for user with id: 1]
+2023-08-10 14:10:18.754  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:10:48.757  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:11:01.196  INFO 4800 --- [http-nio-8080-exec-5] n.t.s.controller.TaskController          : Update Task
+2023-08-10 14:11:18.760  INFO 4800 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:11:19.631  INFO 4800 --- [http-nio-8080-exec-6] n.t.s.controller.TaskController          : List all tasks for a user
+2023-08-10 14:11:38.374  INFO 4800 --- [http-nio-8080-exec-7] n.t.s.controller.TaskController          : List all users
+2023-08-10 14:11:47.854  INFO 4800 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:11:47.854  INFO 4800 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-08-10 14:11:48.074  WARN 4800 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-08-10 14:11:48.075  INFO 4800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-10 14:11:48.077  INFO 4800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-10 14:12:00.688  INFO 5049 --- [restartedMain] n.t.s.SpringbootBackendApplication       : Starting SpringbootBackendApplication using Java 18.0.2.1 on erand-virtual-machine with PID 5049 (/home/erand/Documents/spring-backend/target/classes started by erand in /home/erand/Documents/spring-backend)
+2023-08-10 14:12:00.689  INFO 5049 --- [restartedMain] n.t.s.SpringbootBackendApplication       : No active profile set, falling back to default profiles: default
+2023-08-10 14:12:00.771  INFO 5049 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-10 14:12:00.772  INFO 5049 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-10 14:12:01.321  INFO 5049 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 14:12:01.392  INFO 5049 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2023-08-10 14:12:01.879  INFO 5049 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-10 14:12:01.886  INFO 5049 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-10 14:12:01.886  INFO 5049 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-08-10 14:12:01.959  INFO 5049 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-10 14:12:01.961  INFO 5049 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2023-08-10 14:12:01.988  INFO 5049 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-10 14:12:02.125  INFO 5049 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-10 14:12:02.143  INFO 5049 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c7474c5c-8e8b-40cd-aede-dd89a586529c'
+2023-08-10 14:12:02.388  INFO 5049 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 14:12:02.461  INFO 5049 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-08-10 14:12:02.595  INFO 5049 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 14:12:02.690  INFO 5049 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-10 14:12:03.192  INFO 5049 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 14:12:03.196  INFO 5049 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:12:03.602  WARN 5049 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 14:12:03.871  INFO 5049 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-10 14:12:03.894  INFO 5049 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-10 14:12:03.909  INFO 5049 --- [restartedMain] n.t.s.SpringbootBackendApplication       : Started SpringbootBackendApplication in 3.45 seconds (JVM running for 3.761)
+2023-08-10 14:12:03.910  INFO 5049 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:12:08.942  INFO 5049 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:12:08.942  INFO 5049 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-08-10 14:12:09.161  WARN 5049 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-08-10 14:12:09.162  INFO 5049 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-10 14:12:09.165  INFO 5049 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-10 14:12:18.026  INFO 5186 --- [main] n.t.s.SpringbootBackendApplicationTests  : Starting SpringbootBackendApplicationTests using Java 18.0.2.1 on erand-virtual-machine with PID 5186 (started by erand in /home/erand/Documents/spring-backend)
+2023-08-10 14:12:18.047  INFO 5186 --- [main] n.t.s.SpringbootBackendApplicationTests  : No active profile set, falling back to default profiles: default
+2023-08-10 14:12:18.812  INFO 5186 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-10 14:12:18.884  INFO 5186 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2023-08-10 14:12:19.467  INFO 5186 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-10 14:12:19.660  INFO 5186 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-10 14:12:19.816  INFO 5186 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-10 14:12:19.925  INFO 5186 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-08-10 14:12:20.133  INFO 5186 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-10 14:12:20.322  INFO 5186 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-10 14:12:20.915  INFO 5186 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-10 14:12:20.925  INFO 5186 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:12:21.628  WARN 5186 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-10 14:12:22.164  INFO 5186 --- [main] n.t.s.SpringbootBackendApplicationTests  : Started SpringbootBackendApplicationTests in 4.715 seconds (JVM running for 6.14)
+2023-08-10 14:12:22.166  INFO 5186 --- [scheduling-1] n.t.springboot.service.ScheduledJob      : Scheduled job is running!
+2023-08-10 14:12:22.533  INFO 5186 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-10 14:12:22.536  INFO 5186 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-08-10 14:12:22.552  INFO 5186 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-10 14:12:22.559  INFO 5186 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
